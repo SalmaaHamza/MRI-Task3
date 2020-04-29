@@ -19,7 +19,7 @@ ydata =[]
 dataxPlot=[]
 datayPlot=[]
 print(dim)
-N = 1000
+N = 500
 z = np.linspace(0, 3, N)
 df = 42.6*3
 spins = []
@@ -163,7 +163,7 @@ def plot(xdata,ydata):
     ax.set_xlim(min(xdata), max(xdata))
     ax.set_ylim(min(ydata),max(ydata))
     ax.set_zlim(0, 5)
-    for i in range(1,500):
+    for i in range(1,N):
         dataxPlot.append(xdata[i-1])
         datayPlot.append(ydata[i-1]) 
         pylab.plot(dataxPlot,datayPlot,z[:i],color ="red",linewidth=1.5)
@@ -172,10 +172,15 @@ def plot(xdata,ydata):
      
     plt.show() 
 
-# k_space()
-# point()
-# blochEquation()
-# getT1AndT2()
-# NonUniformKspace()
-# points = RandomNumbers()
-# print(points[0][1][1][1])
+
+
+# req_1 .. Run point() please don't close the window of the trajactory draw until it stops "here we plot point (0,0) only but in report there are 3 others points
+
+point()
+
+# req_2 .. Run k_space()
+
+k_space()
+#req3 .. Run NonUniformKspace()
+NonUniformKspace()
+

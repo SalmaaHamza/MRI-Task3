@@ -46,7 +46,7 @@ Firstly, we get T1 and T2 values at every pixel in our image based on the pixel'
         val2 = ((value -T2Range[0])/(T2Range[1]-T2Range[0]))*T2Range[0]    
         return(val1,val2)
 ```
-Then we select certain pixel and plot the trajactory at this point we only change the values of x *row* and y *Col* then the function **Point() function** gets T1, T2 and the density at this pixel  then  calls the blochEquation to start calculating the Mx, My and Mz at this point. 
+Then we select certain pixel and plot the trajactory at this point we only change the values of x *row* and y *Col* then **Point() function** gets T1, T2 and the density at this pixel  then  calls the blochEquation to start calculating the Mx, My and Mz at this point. 
 
 ```
 
