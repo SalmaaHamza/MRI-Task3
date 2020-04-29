@@ -174,13 +174,13 @@ def plot(xdata,ydata):
 
 
 
-# req_1 .. Run point() please don't close the window of the trajactory draw until it stops "here we plot point (0,0) only but in report there are 3 others points
-
-point()
-
 # req_2 .. Run k_space()
 
 k_space()
 #req3 .. Run NonUniformKspace()
 NonUniformKspace()
+
+# req_1 .. Run point() please don't close the window of the trajactory draw until it stops "here we plot point (0,0) only but in report there are 3 others points
+
+point()
 
