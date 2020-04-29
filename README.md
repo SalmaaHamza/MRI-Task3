@@ -1,4 +1,4 @@
-# **Bloch Equation Simulator**
+# **Assignment 3**
 
                                     Team Members 
                     
