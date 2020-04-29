@@ -104,6 +104,7 @@ def plot(xdata,ydata):
 *Results*
 ----
 The output trajectory at  pixel (0,0)
+
 ![Alt Text](figure1.gif)
 
 
